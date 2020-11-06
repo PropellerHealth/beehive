@@ -1,4 +1,4 @@
-# beehive api
+# Beehive API
 
 We have an API that needs to log every single visit to the hive.
 
@@ -7,7 +7,6 @@ We have an API that needs to log every single visit to the hive.
   *  Clone this repository
   *  Install dependencies `npm install`
   *  Start the server `npm start`
-  *  Go to [http://localhost:3000/](http://localhost:3000/) to confirm the server is running
 
 ## API
 
@@ -18,7 +17,7 @@ The API consists of a single endpoint which receives data when a bee visits the 
   *  **method**: POST
   *  **endpoint**: /api/visits
   *  **data**: JSON Visit/Audit object
-  *  **result**: JSON object containing the visitId, HTTP Status 201, 200, 500
+  *  **result**: JSON object containing the visitId, HTTP Status 201, 500
 
 #### Example
 
@@ -33,7 +32,7 @@ The API consists of a single endpoint which receives data when a bee visits the 
 
 **Request**
 
-     curl -X POST -H "Content-Type: application/json" --data '{"beeId":"100","timestamp":"Tue Nov 01 2016 09:11:51 GMT-0500 (CDT)","pollen":"10"}' http://localhost:3000/api/visits
+     curl -X POST -H "Content-Type: application/json" --data '{"beeId":"100","timestamp":"Tue Nov 01 2019 09:11:51 GMT-0500 (CDT)","pollen":"10"}' http://localhost:3000/api/visits
 
 **Response**
 ````
