@@ -7,7 +7,6 @@ We have an API that needs to log every single visit to the hive.
   *  Clone this repository
   *  Install dependencies `npm install`
   *  Start the server `npm start`
-  *  Go to [http://localhost:3000/](http://localhost:3000/) to confirm the server is running
 
 ## API
 
